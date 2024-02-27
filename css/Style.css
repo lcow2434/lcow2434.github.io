@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    background-color: #f0f0f0; 
+    max-width: 100%;  
+}
+div {
+    background-color: white; 
+    padding: 20px; 
+    border: 2px solid #333; 
+    box-shadow: 5px 5px 10px #999; 
+    max-width: auto;
+    margin: 0 auto; 
+}
+  
+header {
+    background-color: #333; 
+    color: white; 
+    padding: 20px; 
+}
+   
+.logo {
+    float: left;
+    margin-right: 20px; 
+}
+  
+header h1 {
+    font-size: 36px; 
+    line-height: 1.5;
+    display: inline-block; 
+    vertical-align: middle;
+}
+  
+nav {
+    clear: both;
+    background-color: #eee; 
+}
+  
+nav ul {
+    list-style: none; 
+    margin: 0; 
+    padding: 0; text-align: center;
+    
+}
+  
+  nav ul li {
+    display: inline-block; 
+    margin: 10px;
+   
+}
+  
+  nav ul li a {
+    text-decoration: none; 
+    color: #333; 
+    padding: 10px; 
+}
+  
+  nav ul li a:hover {
+    background-color: #b8c6ca; 
+    color: rgb(152, 105, 10); 
+}
+  
+#juicer {
+    margin: 20px; 
+    text-align: center;
+}
+  
+#juicer img {   
+    margin: 10px; 
+    border: 2px solid #333; 
+    box-shadow: 5px 5px 10px #999; 
+}
+   
+main {
+    margin: 20px; 
+}
+  
+div {
+    background-color: white; 
+    padding: 20px; 
+    border: 2px solid #333; 
+    box-shadow: 5px 5px 10px #999; 
+}
+  
+div h1,h2 {
+    color: #333; 
+    text-align: center;
+}
+  
+div p {
+    color: #666; 
+    font-size: 18px; 
+    line-height: 1.5;
+    text-align: center;
+}
+  
+
+#special{
+    text-align: center;
+}
+
+.product-of-the-week h1,h3{
+    text-align: center;
+}
+
+.product-of-the-week img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reasons-to-buy h2{
+    text-align: center;
+}
+
+.reason p{
+    text-align: center;
+}
+
+.intro p strong {
+    color: #333;
+    font-weight: bold; 
+}
+
+.product-of-the-week img{
+ background: none;
+}
+  
+footer {
+    background-color: #333; 
+    color: white; 
+    padding: 20px; 
+    text-align: center;
+}
+  
+footer a {
+    color: white; 
+    text-decoration: none; 
+}
+  
+footer a:hover {
+    text-decoration: underline;
+}
+  
