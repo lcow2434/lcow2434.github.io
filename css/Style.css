@@ -102,6 +102,80 @@ nav ul li a:hover {
     line-height: 1.5;
 }
 
+#form{
+    margin-top: 2%; 
+    background-color: #f2f2f2; 
+    padding: 2%;
+}
+
+#form h2 {
+    text-align: center;
+}
+
+/* Style rules for form elements */
+fieldset, input, select, textarea {
+    margin-bottom: 2%;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+label {
+    display: block;
+    padding-top: 3%;
+}
+
+ form #submit {
+    margin: 0 auto; 
+    border: none; 
+    display: block;
+    padding: 2%;
+    background-color: #b3b3b3;
+    font-size: 1em; 
+    border-radius: 10px; 
+ }
+
+ form #Reset {
+    margin: 0 auto; 
+    border: none; 
+    display: block;
+    padding: 2%;
+    background-color: #b3b3b3;
+    font-size: 1em; 
+    border-radius: 10px; 
+ }
+
+ .btn {
+    display: inline-block; /* Display buttons inline */
+    margin-right: 10px; /* Adjust spacing between buttons */
+}
+
+ /* Tablet Viewport: Style rule for form element */
+
+ form {
+    width: 70%;
+    margin: 0 auto;
+ }
+
+ /* Desktop Viewport: Style rules for form elements */
+
+ form {
+    width: auto; 
+ }
+
+ .form-grid { 
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    grid-gap: 20px; 
+ }
+
+ .btn { 
+    grid-column: 1 / span 3; 
+ }
+
+
 
 .about{
     text-align: center;
@@ -142,6 +216,7 @@ nav ul li a:hover {
     color: #666;
     margin-bottom: 10px;
 }
+
 
 /* Media Queries for responsiveness */
 
