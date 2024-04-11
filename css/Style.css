@@ -217,6 +217,33 @@ label {
     margin-bottom: 10px;
 }
 
+/* Style for media container */
+.media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for video element */
+video {
+    width: 100%;
+    max-width: 500px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 10px; /* Adjust spacing */
+    border: #8A2BE2;
+    border-radius: 10%;
+    border-width: 10px;
+}
+
+/* Style for audio element */
+audio {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    border: #333;
+}
+
+
 
 /* Media Queries for responsiveness */
 
