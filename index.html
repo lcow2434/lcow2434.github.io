@@ -1,67 +1,56 @@
 <!DOCTYPE html>
-<!-- 
-	TERM PROJECT
-	Student Name: Archit Parikh
-	Student Number: c0932379
-    Page: INDEX
- -->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Style.css">
-    <title>SplashCafe Juicers: Home</title>
-    
+    <title>Craftopia Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container">
     <header>
-        <a href="index.html"><img class="logo" src="images\Splashcafelogo.png" alt="SplashCafe logo" height="150" width="150"></a>
-    
-        <h1> <span class="tab-desk"></span> Welcome to SplashCafe Juicers <span class="tab-desk"></span></h1>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html"> Home </a></li>
-                <li><a href="Aboutus.html"> About </a></li>
-                <li><a href="Team.html"> Team </a></li>
-                <li><a href="specials.html">Specials </a></li>
-                <li><a href="Training.html"> Training </a></li>
-                <li><a href="media.html"> Media </a></li>
-                <li><a href="faqs.html">FAQs</a></li>
-                <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-</header>
-
-    <div id="juicer" class="tab-desk">
-        <img src="images\Juicer1.jpg" alt="110watt juicer" height="350" width="400" >
-        <img src="images/Juicer.webp" alt="110watt juicer" height="350" width="400">
-        <img src="images\Juicer02.webp" alt="120watt juicer" height="350" width="400">
-         
-    </div>
-    
-
-     <main>
-        <div >
-        <h1>For our newly launched and most selling products</h1>  
-            <p><strong> SplashCafe Juicers has a wide range of juicers that make fresh juice consumption available in sectors such as the hospitality, catering, and retail industries. SplashCafe Juicers industrial division specializes in developing customized projects for industrial juice extraction.</strong></p>
-            <p><strong> SplashCafe Juicers is a one-stop solution for purchasing the best quality juicers online. We have numerous ranges and varieties in juicers.</strong></p>
-            <p><strong>All Splashcafe juicers products, our juicers offer reliable efficiency and durability. 
-                We offer models with powerful motors that are able to extract juice from a range of fruits and vegetables. Splashcafe Juice Extractors have the added benefit of large chutes that let you process whole vegetables and fruits reducing your prep time because you don’t have to precut your produce. 
-                And with all our juicer machines, cleaning up is a snap — most parts are dishwasher safe. </strong></p>
-        </div>
-        
+        <h1>Craftopia Bookstore</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#products">Products</a></li>
+                <li><a href="index.html#cart">Shopping Cart</a></li>
+                <li><a href="index.html#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <img src="main_page.jpg" alt="Bookstore Image" id="header-image">
+    </header>
+    <main>
+        <section id="products">
+            <h2>Products</h2>
+            <div id="product-list"></div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section id="cart">
+            <h2>Shopping Cart</h2>
+            <div id="cart-list"></div>
+            <div id="cart-total"></div>
+        </section>
     </main>
-    
     <footer>
-        <br>
-        <p>&copy; Copyright 2023. All Rights Reserved.</p>
-        <p>Archit Parikh. <br>Student Number: c0932379</p>
-        <p>Email:<a href="mailto:contact@splashcafe.net">contact@splashcafe.net</a></p>
+        <p>&copy; 2024 Craftopia Bookstore. All rights reserved.</p>
     </footer>
-
-</div> 
+    <script src="script.js"></script>
 </body>
+
 </html>
